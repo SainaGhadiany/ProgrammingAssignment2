@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Inverses the matrix anyway. Time-consuming
 
 makeCacheMatrix <- function(x = matrix()) { 
                 i <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function is the solved part, checking to see if the inversing has been done before or not.
 
 cacheSolve <- function(x, ...) {
        inv <- x$getinv()
